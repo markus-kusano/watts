@@ -1,0 +1,1 @@
+cmake ../ -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INCLUDE_PATH=/home/markus/src/z3/install/include/ -DCMAKE_LIBRARY_PATH=/home/markus/src/z3/install/lib/ -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++

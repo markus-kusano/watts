@@ -1,0 +1,17 @@
+test/**/*.out
+test/**/*.ll
+test/**/*.bc
+test/**/*.time
+test/**/*.diff
+test/**/z3_out.tmp
+test/**/main.ll.smt2
+weak-test/**/*.out
+weak-test/**/*.ll
+weak-test/**/*.bc
+weak-test/**/*.time
+weak-test/**/*.diff
+weak-test/**/z3_out.tmp
+release
+debug
+*.swp
+tags
