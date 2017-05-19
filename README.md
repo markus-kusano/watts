@@ -30,6 +30,9 @@ If you need to tell CMake where LLVM lives, you need to add the option
 The directory passed to `LLVM_DIR` should be the location where the LLVM CMake
 files are (e.g., `LLVM-Config.cmake`).
 
+You also may need to set `-DZ3_INC` and `-DZ3_LIB` to the include directory,
+and library file for Z3, respectively.
+
 ### Slice Passes
 The program-dependence graph slice options (`-aslice`) requires another `opt`
 pass to be run prior to the abstract interpretation pass.
